@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Movie Times</title>
+  </head>
+  <body>
+    <div class="jumbotron">
+      <h1>Super Exciting Movie Website : The Movie</h1>
+    </div>
+    <div class="container">
+      <div class="results">
+        <h2>Here's your movie ticket:</h2>
+
+      </div>
+
+
+      <form id="movieSelect">
+        <!-- MOVIES TO SELECT -->
+        <h2>Movies</h2>
+        <div class="row">
+          <div class="col-md-3">
+            <div class="row">
+              <img src="img/bears.jpg">
+            </div>
+
+            <div class="row">
+              <div class="radioButton">
+                <label>
+                  <input type="radio" name="movies" value="Bears on a Submarine">
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="row">
+              <img src="img/cantina.jpg">
+            </div>
+            <div class="row">
+              <div class="radioButton">
+                <label>
+                  <input type="radio" name="movies" value="Cantina Royale">
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="row">
+              <img src="img/dwitanic.jpg">
+            </div>
+            <div class="row">
+              <div class="radioButton">
+                <label>
+                  <input type="radio" name="movies" value="Dwitanic">
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="row">
+              <img src="img/snapes.jpg">
+            </div>
+            <div class="row">
+              <div class="radioButton">
+                <label>
+                  <input type="radio" name="movies" value="Rise of the Planet of the Snapes">
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <!-- MOVIE TIMES TO SELECT -->
+        <h2>Movie times</h2>
+        <div class="radio">
+          <label>
+            <input type="radio" name="times" value="12pm">
+            12pm
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="times" value="5pm">
+            5pm
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="times" value="7:30pm">
+            7:30pm
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="times" value="9pm">
+            9pm
+          </label>
+        </div>
+
+        <!-- AGES TO SELECT -->
+        <h2>Age groups</h2>
+        <div class="radio">
+          <label>
+            <input type="radio" name="age" value="Child (13 or younger)">
+            Child (13 or younger)
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="age" value="Adult">
+            Adult
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="age" value="Senior (65+)">
+            Senior (65+)
+          </label>
+        </div>
+        <button class="btn btn-info">Submit!</button>
+      </div>
+
+      </form>
+    </div>
+
+  </body>
+</html>
